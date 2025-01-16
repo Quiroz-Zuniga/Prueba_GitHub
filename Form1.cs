@@ -16,5 +16,10 @@ namespace Prueba_n1
         {
             InitializeComponent();
         }
+
+        private void PR_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

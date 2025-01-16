@@ -41,6 +41,7 @@
             this.PR.Size = new System.Drawing.Size(35, 13);
             this.PR.TabIndex = 0;
             this.PR.Text = "label1";
+            this.PR.Click += new System.EventHandler(this.PR_Click);
             // 
             // label1
             // 
@@ -55,6 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PR);
